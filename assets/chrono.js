@@ -69,4 +69,6 @@ function resetChrono() {
     minId.innerHTML = "00";
     secId.innerHTML = "00";
     msId.innerHTML = "00";
+
+    startId.removeAttribute('disabled')
 }
