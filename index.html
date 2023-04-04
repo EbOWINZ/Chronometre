@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP Chronomètre</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/bootstrap.css">
+</head>
+
+<body>
+    <div class="chronometre container pb-5">
+        <h1 class="text-primary py-3">TP Chronomètre</h1>
+
+        <div class="temps justify-content-between d-flex pb-5">
+            <div><span id="hrId">00</span>
+                <p class="text">HOURS</p>
+            </div>
+            <p class="space">:</p>
+            <div><span id="minId">00</span>
+                <p class="text">MINUTES</p>
+            </div>
+            <p class="space">:</p>
+            <div><span id="secId">00</span>
+                <p class="text">SECONDS</p>
+            </div>
+            <p class="space">:</p>
+            <div><span id="msId">00</span>
+                <p class="text">MS</p>
+            </div>
+        </div>
+
+        <button id="startId" class="btn btn-success fs-5">Start</button>
+        <button id="stopId" class="btn btn-warning ms-5 fs-5">Stop</button>
+        <button id="resetId" class="btn btn-danger ms-5 fs-5">Reset</button>
+    </div>
+
+    <script src="assets/chrono.js"></script>
+</body>
+
+</html>

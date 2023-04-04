@@ -1,0 +1,46 @@
+@font-face{
+    font-family: "digital";
+    src: url('digital-7.ttf');
+}
+
+@font-face{
+    font-family: "Opensans";
+    src: url('OpenSans-Regular.ttf');
+}
+
+.chronometre {
+    text-align: center;
+    background-color: rgb(8, 8, 8);
+    border-radius: 20px;
+}
+
+body {
+    background: linear-gradient(45deg, #1870ed 0, #f18f88 100%);
+    min-height: 100vh; 
+    display: flex;
+    align-items: center;
+  }
+
+span {
+    font-size: 4em;
+    font-family: "digital";
+    color: chartreuse;
+}
+
+.text {
+    font-family: "Opensans";
+    font-size: 2em;
+    color: cadetblue;
+    text-align: center;
+}
+
+.temps{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.space {
+    font-size: 4em;
+    font-family: "digital";
+    color: chartreuse;
+}
